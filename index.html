@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <title>Jay Darji</title>
+</head>
+<style>
+  * {
+    background-color: rgb(235, 235, 225);
+  }
+
+  #Home {
+    width: 50%;
+    margin: auto;
+
+  }
+
+  #image {
+    width: 400px;
+    height: 400px;
+  }
+
+  .heading {
+    font-size: 2em;
+    margin-left: 10vw;
+  }
+
+  #logo {
+    font-size: larger;
+    margin-bottom: 1px;
+  }
+</style>
+
+<body>
+  
+  <header class="text-black body-font">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+        <!-- <svg xmlns="" fill="JD" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+        </svg> -->
+        <a href="my portfolio.html"><span class="ml-3 text-xl bg-blue-400 px-3 py-2 rounded-full">JD</span></a>
+      </a>
+      <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center color bg-black-200">
+        <a class="mr-5 hover:font-medium" href="#Home">Home</a>
+        <a class="mr-5 hover:font-medium" href="#about">About</a>
+        <a class="mr-5 hover:font-medium" href="#education">Eduction</a>
+        <a class="mr-5 hover:font-medium" href="#skills">Skills</a>
+        <a class="mr-5 hover:font-medium" href="#contact">Contact</a>
+
+      </nav>
+       <a href="https://resume.io/r/NnRsuvA05" target="_blank"><button
+        class="inline-flex items-center bg-blue-400 border-0 py-1 px-3 focus:outline-none hover:bg-blue-700 rounded text-base mt-4 md:mt-0">Resume
+        <svg fill="bg-blue-200" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+          <path d="M5 12h14M12 5l7 7-7 7"></path>
+        </svg>
+      </button></a>
+    </div>
+  </header>
+  <section class="text-gray-700 body-font" id="Home">
+    <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+      <div
+        class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-larger text-black">Hi, my Name is
+          <br class="hidden lg:inline-block">Jay Darji
+        </h1>
+        <p class="mb-8 leading-relaxed">Welcome to my digital portfolio, where I blend creativity with technical prowess to craft meaningful digital experiences. I am a certified web developer with a strong foundation in HTML, CSS, and JavaScript, backed by a certification from the prestigious GEC Gandhinagar.</p>
+        <p class="mb-8 leading-relaxed">Beyond web development, I've ventured into the world of Java programming. With a solid understanding of Java fundamentals, I am currently advancing my skills in data structures and algorithms (DSA) to tackle complex problem-solving challenges.</p>
+        <div class="flex justify-center">
+          <a href="https://www.linkedin.com/in/jay-darji-b6a33a258" target="_blank"><button 
+            class="inline-flex text-white bg-purple-700 border-0 py-2 px-6 focus:outline-none hover:bg-purple-900 rounded text-lg" >Check it out my Profile!</button></a>
+          <!-- <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button> -->
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- About me section -->
+
+  <section class="text-gray-600 body-font overflow-hidden" id="about">
+    <h1 class="heading">1.About me</h1>
+    <div class="container px-5 py-24 mx-auto">
+      <div class="lg:w-4/5 mx-auto flex flex-wrap">
+        <img alt="image" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" id="image"
+          src="photo2.jpg">
+        <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
+          <h2 class="text-sm title-font text-gray-800 tracking-widest">Hi, I am a</h2>
+          <h1 class="text-gray-900 text-3xl title-font font-medium mb-1">Student , Learner & Developer</h1>
+          <div class="flex mb-4">
+
+            <p class="leading-relaxed">"I am a dedicated IT student at GEC Gandhinagar with a strong passion for web development and Java programming. I thrive on solving complex problems and turning creative ideas into functional solutions. Constantly learning and seeking new challenges, I am committed to honing my skills and contributing to innovative projects. Let's connect and explore the world of technology together."</p>
+            <div class=" mt-6 items-center pb-5 border-b-2 border-gray-700 mb-5"></div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Eduction -->
+
+  <section class="text-gray-600 body-font" id="education">
+    <h1 class="heading">2.Education</h1>
+    <div class="container px-5 py-24 mx-auto flex flex-wrap">
+      <div class="flex flex-wrap w-full">
+        <div class="lg:w-2/5 md:w-1/2 md:pr-10 md:py-6">
+          <div class="flex relative pb-12">
+            <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
+              <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+            </div>
+            <div
+              class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                class="w-5 h-5" viewBox="0 0 24 24">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+            </div>
+            <div class="flex-grow pl-4">
+              <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">BE in Information Technology
+              </h2>
+              <p class="leading-relaxed">Since 2022, Purpusing BE in information technology at GEC , Gandhinagar.</p>
+            </div>
+          </div>
+          <div class="flex relative pb-12">
+            <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
+              <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+            </div>
+            <div
+              class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                class="w-5 h-5" viewBox="0 0 24 24">
+                <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+              </svg>
+            </div>
+            <div class="flex-grow pl-4">
+              <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">HSC</h2>
+              <p class="leading-relaxed">I have done my hsc + Gujcet from Noble school of science with 89 pr in hsc &
+                94pr in Gujcet.</p>
+            </div>
+          </div>
+          <div class="flex relative pb-12">
+            <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
+              <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+            </div>
+            <div
+              class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                class="w-5 h-5" viewBox="0 0 24 24">
+                <circle cx="12" cy="5" r="3"></circle>
+                <path d="M12 22V8M5 12H2a10 10 0 0020 0h-3"></path>
+              </svg>
+            </div>
+            <div class="flex-grow pl-4">
+              <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">SSC</h2>
+              <p class="leading-relaxed">I have done my SSC from navyug vidhyalay naroda.I have secure a 79% in ssc.</p>
+            </div>
+          </div>
+          <div class="flex relative pb-12">
+            <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
+              <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+            </div>
+            <div
+              class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                class="w-5 h-5" viewBox="0 0 24 24">
+                <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                <circle cx="12" cy="7" r="4"></circle>
+              </svg>
+            </div>
+            <div class="flex-grow pl-4">
+              <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">Schooling</h2>
+              <p class="leading-relaxed">I have done my schooling from the navyug vidhyalay.</p>
+            </div>
+          </div>
+
+        </div>
+        <img class="lg:w-3/5 md:w-1/2 object-cover object-center rounded-lg md:mt-0 mt-12"
+          src="https://images.pexels.com/photos/4050302/pexels-photo-4050302.jpeg?auto=compress&cs=tinysrgb&w=600"
+          alt="step">
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills section -->
+
+  <section class="text-gray-600 body-font" id="skills">
+    <h1 class="heading">3.Skills</h1>
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-wrap -m-4">
+        <div class="p-4 md:w-1/5">
+          <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+              src="html img.jpeg" style="height: auto;"
+              alt="html">
+            <div class="p-6">
+              <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"></h2>
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">HTML</h1>
+              <p class="leading-relaxed mb-3">I have learn html from the internet source and club IDE of my college.</p>
+              <div class="flex items-center flex-wrap ">
+                <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
+
+                  <path d="M5 12h14"></path>
+                  <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/5">
+          <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+              src="css img.jpeg" style="height: 230px;">
+            <div class="p-6">
+              <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"></h2>
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">CSS</h1>
+              <p class="leading-relaxed mb-3">I have learn it from internet source and during the web development course
+                also.</p>
+              <div class="flex items-center flex-wrap">
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/5">
+          <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+              src="js2 img.jpeg" alt="JavaScript" style="width: 100%;height: 50%;">
+            <div class="p-6">
+              <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"></h2>
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">JavaScript</h1>
+              <p class="leading-relaxed mb-3">I have a basic idea of JavaScript.
+              </p>
+              <div class="flex items-center flex-wrap ">
+
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/5">
+          <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+              src="java img.jpeg" style="height: 50%;"
+              alt="Java">
+            <div class="p-6">
+              <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"></h2>
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Java Programming Language</h1>
+              <p class="leading-relaxed mb-3">Currently I am learning Java with DSA  and System design with PW skills.
+              </p>
+              <div class="flex items-center flex-wrap ">
+                <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
+
+                  <path d="M5 12h14"></path>
+                  <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/5">
+          <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+              src="c img.jpeg" style="height: 50%;" alt="c">
+            <div class="p-6">
+              <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"></h2>
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">C programming Language</h1>
+              <p class="leading-relaxed mb-3">I learnt it in the starting days of my college.</p>
+              <div class="flex items-center flex-wrap">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ 
+  <!-- Contact -->
+
+  <section class="text-gray-600 body-font relative" id="contact">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-col text-center w-full mb-12">
+        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Contact me</h1>
+        <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Please give your feedback here.</p>
+      </div>
+      <div class="lg:w-1/2 md:w-2/3 mx-auto">
+        <div class="flex flex-wrap -m-2">
+          <div class="p-2 w-1/2">
+            <div class="relative">
+              <label for="name" class="leading-7 text-sm text-gray-600">Name</label>
+              <input type="text" id="name" name="name"
+                class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+            </div>
+          </div>
+          <div class="p-2 w-1/2">
+            <div class="relative">
+              <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+              <input type="email" id="email" name="email"
+                class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+            </div>
+          </div>
+          <div class="p-2 w-full">
+            <div class="relative">
+              <label for="message" class="leading-7 text-sm text-gray-600">Message</label>
+              <textarea id="message" name="message"
+                class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+            </div>
+          </div>
+          <div class="p-2 w-full">
+            <!-- <button
+              class="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Submit</button> -->
+              <button type="reset" class="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Submit</button>
+              
+          </div>
+          <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
+            <a class="text-indigo-500" href="mailto:darjijay214@gmail.com">darjijay214@gmail.com</a>
+            <p class="leading-normal my-5">
+              <br>
+            </p>
+            <span class="inline-flex">
+              <a class="text-blue-600" href="https://www.facebook.com/profile.php?id=100081710286573&mibextid=ZbWKwL">
+                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+                  viewBox="0 0 24 24">
+                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                </svg>
+              </a>
+              <a class="ml-4 text-blue-500" href="https://www.linkedin.com/in/jay-darji-b6a33a258/">
+
+                </svg>
+                <i class="fa fa-linkedin-square" aria-hidden="true" id="logo"></i>
+              </a>
+              <a class="ml-4 text-red-700" href="https://www.instagram.com/Jay_darji21">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  class="w-5 h-5" viewBox="0 0 24 24">
+                  <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                </svg>
+              </a>
+              <a class="ml-4 text-green-500" href="https://bit.ly/3Yg0Me0">
+                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+                  viewBox="0 0 24 24">
+                  <path
+                    d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                  </path>
+                </svg>
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+
+</html>
